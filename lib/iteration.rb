@@ -35,6 +35,7 @@ sum = 0
   uniform << src
   array_3 += 1
  end
+ uniform
 end
 
 
