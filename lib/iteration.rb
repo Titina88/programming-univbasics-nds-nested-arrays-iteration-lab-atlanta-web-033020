@@ -31,7 +31,7 @@ array_3 = 0
 uniform = []
 sum = 0
   while src[0][0] && src[0][1] %2 == 0 do
-  sum+= 
+  sum[0] + sum[1] 
   uniform << src[sum]
   array_3 += 1
  end
