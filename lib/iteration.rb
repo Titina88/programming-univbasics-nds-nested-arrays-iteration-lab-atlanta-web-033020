@@ -27,16 +27,16 @@ end
 #array_3 = [[86262, 58115], [22558, 97709], [66236, 28056], [25992, 81375], [11248, 56789], [42783, 27353], [70796, 63432], [53234, 63058], [72316, 8675309]]
 
 def total_even_pairs(src)
-array_3 = 0
-uniform = []
+index = 0
+
 sum = 0
- while array_3 < src.lenght do 
-  #while src[0][0] && src[0][1] %2 == 0 do
-  sum += 
-  uniform << src[sum]
-  array_3 += 1
+ while index < src.lenght do 
+   if src[index][0] %2 == 0 && src[index][1] %2 == 0
+  sum += ( src[index][0] + src[index][1])
+  index += 1
  end
  uniform
 end
 
 
+#while src[0][0] && src[0][1] %2 == 0 do
