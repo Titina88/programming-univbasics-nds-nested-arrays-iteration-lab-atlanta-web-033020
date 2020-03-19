@@ -34,7 +34,7 @@ sum = [0 + 1]
   sum += 1
   uniform << src[sum]
   array_3 += 1
-  binding.pry
+  pry
  end
  uniform
 end
