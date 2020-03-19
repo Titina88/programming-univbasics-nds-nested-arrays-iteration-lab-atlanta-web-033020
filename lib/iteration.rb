@@ -30,9 +30,8 @@ def total_even_pairs(src)
 array_3 = 0
 uniform = []
 sum = 0
-  if scr[0][1] %2 == 0 
+  while scr[0][0] && scrc[0][1] %2 == 0 do
   sum+= 
-  else nothing
   uniform << src[array_3]
   array_3 += 1
  end
