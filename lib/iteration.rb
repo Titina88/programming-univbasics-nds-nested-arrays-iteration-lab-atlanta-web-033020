@@ -33,9 +33,8 @@ sum = 0
  while index < src.lenght do 
    if src[index][0] %2 == 0 && src[index][1] %2 == 0
   sum += ( src[index][0] + src[index][1])
-  
- end
- uniformindex += 1
+  end 
+  index += 1
 end
 
 
