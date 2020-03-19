@@ -32,11 +32,9 @@ uniform = []
 sum = 0
   while src[0][0] && src[0][1] %2 == 0 do
   sum+= 
-  uniform << src[sum]
+  uniform << src
   array_3 += 1
  end
 end
 
- 
- # while array_3 % src.count == 0 do
-  #sum +=
+
