@@ -36,6 +36,7 @@ sum = 0
   end 
   index += 1
 end
-
+sum
+end
 
 #while src[0][0] && src[0][1] %2 == 0 do
