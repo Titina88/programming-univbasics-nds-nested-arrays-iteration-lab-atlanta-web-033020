@@ -32,7 +32,7 @@ uniform = []
 sum = 0
   while scr[0][0] && scrc[0][1] %2 == 0 do
   sum+= 
-  uniform << src[array_3]
+  uniform << src[sum]
   array_3 += 1
  end
 end
