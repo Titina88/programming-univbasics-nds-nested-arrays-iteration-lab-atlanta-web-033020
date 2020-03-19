@@ -34,7 +34,6 @@ sum = [0 + 1]
   sum += 1
   uniform << src[sum]
   array_3 += 1
-  pry
  end
  uniform
 end
