@@ -1,4 +1,4 @@
-require 
+require "pry"
 
 #array_1 = [['pepperoni', 'sausage'], ['green olives', 'green peppers'], ['onions', 'pineapple']]
 
@@ -30,7 +30,7 @@ end
 
 def total_even_pairs(src)
 index = 0
-
+binding.pry
 sum = 0
  while index < src.length do 
    if src[index][0] %2 == 0 && src[index][1] %2 == 0
