@@ -30,6 +30,7 @@ def total_even_pairs(src)
 array_3 = 0
 uniform = []
 sum = [0 + 1]
+binding.pry
   while src[0][0] && src[0][1] %2 == 0 do
   sum += 1
   uniform << src[sum]
